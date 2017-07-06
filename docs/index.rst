@@ -450,7 +450,7 @@ to get rid of this warning.
 shell
 +++++
 
-The ``Shell`` command starts a Python shell. You can pass in a ``make_context`` argument, which must be a ``callable`` returning a ``dict``. By default, this is just a dict returning the your Flask application instance::
+The ``Shell`` command starts a Python shell. You can pass in a ``make_context`` argument, which must be a ``callable`` returning a ``dict``. By default, this is just a dict returning your Flask application instance::
 
     from flask_script import Shell, Manager
 
